@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+
+.info {
+    padding-left: 0;
+}
+
+
+h1 {
+    float: left;
+    margin: 0;
+    padding: 50px 0;
+    width: 300px;
+    height: 620px;
+    background: #65A4FA;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+#main {
+    float: left;
+    margin-left: 15px;
+}
+
+h2 {
+    margin: 20px 0; 
+}
+
+ul {
+    margin: 20px 0;
+}
+
+p {
+    margin: 5px 0;
+}

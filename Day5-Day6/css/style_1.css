@@ -1,0 +1,15 @@
+body {
+    
+    text-align: left;
+}
+
+
+li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+
+.info {
+    padding-left: 0;
+}

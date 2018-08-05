@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    background: #333333;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    display: inline-block;
+    margin: 0;
+}
+
+.header-nav {
+    float: right;
+    margin-top: 5px;
+}
+
+.header-nav li {
+    float: left;
+    margin-right: 10px;
+}
+
+.header-nav li a {
+    color: #fff;
+}
+
+.banner {
+    height: 300px;
+    background: #66BB33;
+    position: relative;
+}
+
+.banner-list {
+    position: absolute;
+    right: 190px;
+    bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-list a {
+    width: 25px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.banner-list li {
+    width: 25px;
+    height: 30px;
+    border: #aaa solid 1px;
+    background: #fff;
+    opacity: 0.5;
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-list .banner-activate,
+.banner-list li:hover{
+    height: 50px;
+    opacity: 0.9;
+}
+
+.main-nav {
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-nav ul {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.main-nav ul a {
+    display: inline-block;
+    width: 105px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    bottom: -1px;
+}
+
+.main-nav ul .main-nav-activate {
+    background: #fff;
+    border-bottom: none;
+}
+
+.content {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .content-item {
+    border: #ccc solid 1px;
+    margin: 10px 10px 10px 0;
+    
+}
+
+.first {
+    display: flex;
+}
+
+.content1, .content2, .content3 {
+    padding: 80px;
+
+}
+
+.content3 {
+    flex: 1;
+    text-align: center;
+}
+
+.second {
+    display: flex;
+}
+
+.content4, .content5, .content6, .content7 {
+    padding: 80px 60px;
+    text-align: center;
+    flex: 1;
+}
+
+.last {
+    display: flex;
+   
+}
+
+.content8, .content9, .content10 {
+    padding: 80px;
+    flex: 1;
+    text-align: center;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 120px;
+    background: #333333;
+    padding-top: 20px;
+}
